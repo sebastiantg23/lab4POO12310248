@@ -15,6 +15,30 @@ public class Mesa {
         this.forma = forma;
     }
 
+    public float getAncho() {
+        return ancho;
+    }
+
+    public void setAncho(float ancho) {
+        this.ancho = ancho;
+    }
+
+    public float getAltura() {
+        return altura;
+    }
+
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public String getMaterial() {
         return material;
     }

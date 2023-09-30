@@ -11,6 +11,29 @@ public class Triangulo {
         this.vertice3 = vertice3;
     }
 
+    public Punto getVertice1() {
+        return vertice1;
+    }
+
+    public void setVertice1(Punto vertice1) {
+        this.vertice1 = vertice1;
+    }
+
+    public Punto getVertice2() {
+        return vertice2;
+    }
+
+    public void setVertice2(Punto vertice2) {
+        this.vertice2 = vertice2;
+    }
+
+    public Punto getVertice3() {
+        return vertice3;
+    }
+
+    public void setVertice3(Punto vertice3) {
+        this.vertice3 = vertice3;
+    }
 
     public double getPerimetro() {
         double lado1 = distanciaEntrePuntos(vertice1, vertice2);
@@ -25,4 +48,6 @@ public class Triangulo {
         double deltaY = punto2.getCoordenadaY() - punto1.getCoordenadaY();
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
+
+
 }
